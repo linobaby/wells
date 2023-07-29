@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    size: 5px;
+    font-family: 'REM', sans-serif;
+
+
+}
+
+
+
+.container {
+    border-radius: 20px;
+    border: 3px solid rgb(99, 92, 92);
+    width: 330px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+}
+
+.left {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    color: grey;
+
+}
+
+.right {
+    display: flex;
+}
+
+.logo,
+.lock {
+    margin: 0 5px;
+}
+
+.bell {
+    color: grey;
+    margin: 0 10px;
+}
+
+.sign {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 13px;
+    display: flex;
+    align-self: center;
+    font-family: 'REM', sans-serif;
+
+}
+
+/* checking container */
+
+.check {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    font-family: 'REM', sans-serif;
+
+}
+
+.amt {
+    /* border: 1px solid black; */
+    padding-left: 15px;
+    font-family: 'REM', sans-serif;
+    font-size: 35px;
+}
+
+.bal {
+    /* border:1px solid black; */
+    display: flex;
+    padding-left: 15px;
+    font-size: 13px;
+
+}
+
+.bal span {
+    justify-content: center;
+    align-self: center;
+}
+
+.info {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.srch {
+    /* border:1px solid black; */
+    display: flex;
+    margin: 20px 15px;
+    width: auto;
+    border-bottom: 2px solid rgb(119, 116, 116);
+}
+
+.srch input {
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    padding: 8px;
+    background: transparent;
+}
+
+
+
+.srch span {
+    display: flex;
+    align-self: center;
+
+}
+
+.filter {
+    display: flex;
+    /* border:1px solid black; */
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.tilt {
+    font-size: 15px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    display: flex;
+    align-self: center;
+    ;
+}
+
+#im_filt {
+    width: 25px;
+}
+
+
+.menu {
+    border-top: 2px solid rgb(136, 134, 134);
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+}
+
+.icons {
+    display: flex;
+    /* border:1px solid black; */
+    flex-direction: column;
+
+}
+
+.icons span {
+    display: flex;
+    align-self: center;
+}
+
+#des {
+
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+
+.transaction {
+    height: 300px;
+    overflow-y: scroll;
+    /* border:1px solid black; */
+}
+
+.tran_child {
+    border-bottom: 1px solid rgb(100, 97, 97);
+    display: flex;
+    margin-top: 8px;
+}
+
+
+
+.ico {
+    padding: 2px 5px;
+    font-size: 17px;
+    border-radius: 70px;
+    margin: auto;
+}
+
+#pend {
+    width: 25px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+
+}
+
+.ico img {
+    width: 25px;
+    /* border: 1px solid black; */
+
+}
+
+.detail {
+    /* border:1px solid black; */
+    width: 85%;
+    text-transform: capitalize;
+    color: grey;
+    font-weight: bold;
+
+
+}
+
+.status {
+    padding: 5px 10px 0 10px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.cause {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    padding: 0 0 5px 10px;
+    font-family: 'REM', sans-serif;
+    font-size: 13px;
+
+
+}
+
+.status span {
+    color: black;
+    font-size: 15px;
+}
+
+.tran_child_s {
+    /* border:1px solid black;s */
+    padding: 7px 8px;
+    background-color: rgb(231, 231, 228);
+
+}
+
+.status_s {
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: grey;
+}
+
+.cause_s {
+    /* border:1px solid black; */
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    font-size: 13px
+}
+
+.cause_s span {
+    color: black;
+}
